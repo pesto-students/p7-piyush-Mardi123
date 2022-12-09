@@ -1,0 +1,95 @@
+*{
+  background-color: #b57851;
+}
+
+#buff_img{
+  padding: 30px;
+  background-color: white;
+  animation-name: buff_img_anm;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+  width:100px;
+
+}
+@keyframes buff_img_anm {
+ from {
+   background-color: white;
+   width:100px;
+ }
+ to{
+   background-color: red;
+   width:200px;
+ }
+}
+
+p{
+  font-size: 1.2rem;
+}
+.HEADER{
+  position: absolute;
+  left: 300px;
+  top:50px;}
+
+.articles{
+  display: flex;
+  position:absolute;
+  top:300px;
+  margin-left:30px;}
+
+.articles>div{
+  margin: 30px;
+  max-width: 300px;
+  max-height: 800px;
+
+}
+summary{
+  margin: 10px;
+}
+
+.sidebar{
+  display: flex;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: aqua;
+  flex-direction: column;
+  position:absolute;
+  right:200px;
+  top:10px;
+  padding: 10px;
+}
+
+.flex-vertical{
+
+  background-color: orange;
+  animation-name: sidebar_animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sidebar_animation{
+  from{
+    background-color: red;
+  }
+  to{
+    background-color: green;
+  }
+
+}
+
+
+.forms_action{
+  background: aqua;
+  position: absolute;
+  top:1200px;
+  border: 10px solid black;
+  padding:50px;
+}
+
+form , label, input, select{
+  background: white;
+  font-size: 1.5rem;
+}
+#sbmt{
+  color: aqua;
+  background-color: green;
+}

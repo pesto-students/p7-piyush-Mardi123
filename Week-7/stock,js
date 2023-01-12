@@ -1,0 +1,16 @@
+//function to find the best trade
+function bestTrade(arr) {
+  let min = arr[0];
+  let profit = 0;
+  for (price = 0; price < arr.length; price++) {
+    min = Math.min(min, arr[price]);
+    profit = Math.max(profit, arr[price] - min);
+  }
+  return profit;
+}
+a = bestTrade([7, 1, 5, 3, 6, 4]);
+console.log(a);
+b = bestTrade([7, 6, 4, 3, 1]);
+console.log(b);
+//TC:O(N)
+//SC:O(1)

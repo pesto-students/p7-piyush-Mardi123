@@ -1,0 +1,38 @@
+/* styles.css */
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .copy-button {
+    margin-left: 10px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .home-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .shortened-urls {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .shortened-urls li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .copy-button {
+    margin-left: 10px;
+  }
+  
